@@ -3,11 +3,11 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  POSTGRES_USERNAME: postgres
-  POSTGRES_PASSWORD: Perry19.com
-  POSTGRES_HOST: db-microservice.ccmyotalmxbo.us-east-1.rds.amazonaws.com
+  POSTGRES_USERNAME: 
+  POSTGRES_PASSWORD: 
+  POSTGRES_HOST: 
   POSTGRES_DB: postgres
-  AWS_BUCKET: udagram-microservice-dev-276903052547
+  AWS_BUCKET: 
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
