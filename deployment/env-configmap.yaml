@@ -3,13 +3,13 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  POSTGRES_USERNAME: 
-  POSTGRES_PASSWORD: 
-  POSTGRES_HOST: 
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PASSWORD: xxxxxxxx
+  POSTGRES_HOST: db-microservice.xxxxxxx.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: 
+  AWS_BUCKET: udagram-microservice...
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
-  URL: http://localhost:8100   
+  URL: http://a4f2b1b39535645e3a65b75f1885efdd-538828564.us-east-2.elb.amazonaws.com:8100 
 
